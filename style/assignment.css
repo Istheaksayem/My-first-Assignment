@@ -117,6 +117,101 @@ button:hover {
   margin-top: 8px;
   text-transform: capitalize;
 }
+.feedback-section h2 {
+  text-align: center;
+}
+
+
+.feedback-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.feedback-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.feedback-section .subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+.stars {
+  font-size: 24px;
+  color: gold;
+  margin-bottom: 10px;
+}
+.review-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* ছোট স্ক্রিনে নিচে নামবে */
+  margin-top: 30px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.stars {
+  font-size: 20px;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 15px;
+  color: #333;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviewer-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #007bff;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
 
 
 
