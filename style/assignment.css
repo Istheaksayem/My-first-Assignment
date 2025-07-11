@@ -5,6 +5,12 @@ nav{
   padding: 20px;
   background-color: rgba(222, 184, 135, 0.526);
   border-radius: 5px;
+
+  
+
+}
+.logo{
+  color: blue;
 }
 .center-content {
   flex: 1 1 100%;
